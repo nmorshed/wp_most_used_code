@@ -20,9 +20,10 @@ add_shortcode('twitter', function( $atts, $text ){
 		// $atts = User defined attributes in shortcode tag
 		// 'twitter' = shortcode name
 	);
-	
-	return "<a href='http://twitter.com/" .$atts['username']. "'>". $atts['text'] . "</a>";
 
+	extract($atts);
+		
+	return "<a href='http://twitter.com/$username'> $text </a>";
 });
 
 ?>
