@@ -1,7 +1,6 @@
 # wp_most_used_code
 
-##This is for personal usage
+I created this repo to store my frequently-used WP snippets so that I can reuse these in my other projects.
 
-I pasted these code here so I can reuse them when I need them
 
-###Thanks
+##Thanks
